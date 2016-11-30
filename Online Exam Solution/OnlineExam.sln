@@ -1,26 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "OnlineExam", "http://localhost:64883", "{E3835955-7D3C-4112-B4E4-EB049B611D99}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Online Exam Project", "..\Online Exam Project\", "{06025E09-E71F-4513-8BA2-81DF067AAF5A}"
 	ProjectSection(WebsiteProperties) = preProject
-		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_64883"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\OnlineExam\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64883\"
+		Debug.AspNetCompiler.VirtualPath = "/Online Exam Project"
+		Debug.AspNetCompiler.PhysicalPath = "..\Online Exam Project\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Online Exam Project\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_64883"
-		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\OnlineExam\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64883\"
+		Release.AspNetCompiler.VirtualPath = "/Online Exam Project"
+		Release.AspNetCompiler.PhysicalPath = "..\Online Exam Project\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Online Exam Project\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\..\WebSites\OnlineExam\"
-		DefaultWebSiteLanguage = "Visual C#"
+		VWDPort = "49385"
 	EndProjectSection
 EndProject
 Global
@@ -28,8 +26,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E3835955-7D3C-4112-B4E4-EB049B611D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E3835955-7D3C-4112-B4E4-EB049B611D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06025E09-E71F-4513-8BA2-81DF067AAF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06025E09-E71F-4513-8BA2-81DF067AAF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

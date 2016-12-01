@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace online_exam
 {
-    public partial class WebForm3 : System.Web.UI.Page
+    public partial class Share : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

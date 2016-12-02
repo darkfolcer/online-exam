@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace online_exam
+namespace EsOnlineExam
 {
     public partial class Share : System.Web.UI.MasterPage
     {

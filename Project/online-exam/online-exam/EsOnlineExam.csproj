@@ -201,6 +201,149 @@
     <Content Include="index.aspx" />
     <Content Include="login.aspx" />
     <Content Include="register.aspx" />
+    <Content Include="student\assets\css\animate.css" />
+    <Content Include="student\assets\css\bootstrap.css" />
+    <Content Include="student\assets\css\font-awesome.css" />
+    <Content Include="student\assets\css\nexus.css" />
+    <Content Include="student\assets\css\responsive.css" />
+    <Content Include="student\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="student\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="student\assets\img\blog\image1.jpg" />
+    <Content Include="student\assets\img\blog\image2.jpg" />
+    <Content Include="student\assets\img\blog\image3.jpg" />
+    <Content Include="student\assets\img\blog\image4.jpg" />
+    <Content Include="student\assets\img\blog\thumbs\thumb1.jpg" />
+    <Content Include="student\assets\img\blog\thumbs\thumb2.jpg" />
+    <Content Include="student\assets\img\blog\thumbs\thumb3.jpg" />
+    <Content Include="student\assets\img\blog\thumbs\thumb4.jpg" />
+    <Content Include="student\assets\img\closelabel.gif" />
+    <Content Include="student\assets\img\fillers\aboutme.jpg" />
+    <Content Include="student\assets\img\fillers\filler1.jpg" />
+    <Content Include="student\assets\img\fillers\filler2.jpg" />
+    <Content Include="student\assets\img\fillers\filler3.jpg" />
+    <Content Include="student\assets\img\fillers\filler4.jpg" />
+    <Content Include="student\assets\img\frontpage\image1.png" />
+    <Content Include="student\assets\img\frontpage\image2.png" />
+    <Content Include="student\assets\img\frontpage\image3.png" />
+    <Content Include="student\assets\img\frontpage\image4.png" />
+    <Content Include="student\assets\img\frontpage\responsive_homepage.png" />
+    <Content Include="student\assets\img\hr.png" />
+    <Content Include="student\assets\img\link.png" />
+    <Content Include="student\assets\img\loading.gif" />
+    <Content Include="student\assets\img\logo.png" />
+    <Content Include="student\assets\img\menu_arrow.png" />
+    <Content Include="student\assets\img\nextlabel.gif" />
+    <Content Include="student\assets\img\portfolio\image1.jpg" />
+    <Content Include="student\assets\img\portfolio\image10.jpg" />
+    <Content Include="student\assets\img\portfolio\image11.jpg" />
+    <Content Include="student\assets\img\portfolio\image12.jpg" />
+    <Content Include="student\assets\img\portfolio\image2.jpg" />
+    <Content Include="student\assets\img\portfolio\image3.jpg" />
+    <Content Include="student\assets\img\portfolio\image4.jpg" />
+    <Content Include="student\assets\img\portfolio\image5.jpg" />
+    <Content Include="student\assets\img\portfolio\image6.jpg" />
+    <Content Include="student\assets\img\portfolio\image7.jpg" />
+    <Content Include="student\assets\img\portfolio\image8.jpg" />
+    <Content Include="student\assets\img\portfolio\image9.jpg" />
+    <Content Include="student\assets\img\prevlabel.gif" />
+    <Content Include="student\assets\img\profiles\37.jpg" />
+    <Content Include="student\assets\img\profiles\53.jpg" />
+    <Content Include="student\assets\img\profiles\78.jpg" />
+    <Content Include="student\assets\img\profiles\84.jpg" />
+    <Content Include="student\assets\img\profiles\87.jpg" />
+    <Content Include="student\assets\img\profiles\99.jpg" />
+    <Content Include="student\assets\img\sample_bg.jpg" />
+    <Content Include="student\assets\img\slideshow\loading.gif" />
+    <Content Include="student\assets\img\slideshow\next.png" />
+    <Content Include="student\assets\img\slideshow\pagination.png" />
+    <Content Include="student\assets\img\slideshow\prev.png" />
+    <Content Include="student\assets\img\slideshow\slide1.jpg" />
+    <Content Include="student\assets\img\slideshow\slide2.jpg" />
+    <Content Include="student\assets\img\slideshow\slide3.jpg" />
+    <Content Include="student\assets\img\slideshow\slide4.jpg" />
+    <Content Include="student\assets\img\social_icons\aim.png" />
+    <Content Include="student\assets\img\social_icons\apple.png" />
+    <Content Include="student\assets\img\social_icons\behance.png" />
+    <Content Include="student\assets\img\social_icons\blogger.png" />
+    <Content Include="student\assets\img\social_icons\cargo.png" />
+    <Content Include="student\assets\img\social_icons\delicious.png" />
+    <Content Include="student\assets\img\social_icons\deviantart.png" />
+    <Content Include="student\assets\img\social_icons\digg.png" />
+    <Content Include="student\assets\img\social_icons\dopplr.png" />
+    <Content Include="student\assets\img\social_icons\dribbble.png" />
+    <Content Include="student\assets\img\social_icons\email.png" />
+    <Content Include="student\assets\img\social_icons\ember.png" />
+    <Content Include="student\assets\img\social_icons\evernote.png" />
+    <Content Include="student\assets\img\social_icons\facebook.png" />
+    <Content Include="student\assets\img\social_icons\flickr.png" />
+    <Content Include="student\assets\img\social_icons\forrst.png" />
+    <Content Include="student\assets\img\social_icons\github.png" />
+    <Content Include="student\assets\img\social_icons\google.png" />
+    <Content Include="student\assets\img\social_icons\googleplus.png" />
+    <Content Include="student\assets\img\social_icons\gowalla.png" />
+    <Content Include="student\assets\img\social_icons\grooveshark.png" />
+    <Content Include="student\assets\img\social_icons\html5.png" />
+    <Content Include="student\assets\img\social_icons\icloud.png" />
+    <Content Include="student\assets\img\social_icons\lastfm.png" />
+    <Content Include="student\assets\img\social_icons\linkedin.png" />
+    <Content Include="student\assets\img\social_icons\metacafe.png" />
+    <Content Include="student\assets\img\social_icons\mixx.png" />
+    <Content Include="student\assets\img\social_icons\myspace.png" />
+    <Content Include="student\assets\img\social_icons\netvibes.png" />
+    <Content Include="student\assets\img\social_icons\newsvine.png" />
+    <Content Include="student\assets\img\social_icons\orkut.png" />
+    <Content Include="student\assets\img\social_icons\paypal.png" />
+    <Content Include="student\assets\img\social_icons\picasa.png" />
+    <Content Include="student\assets\img\social_icons\pinterest.png" />
+    <Content Include="student\assets\img\social_icons\plurk.png" />
+    <Content Include="student\assets\img\social_icons\posterous.png" />
+    <Content Include="student\assets\img\social_icons\reddit.png" />
+    <Content Include="student\assets\img\social_icons\rss.png" />
+    <Content Include="student\assets\img\social_icons\skype.png" />
+    <Content Include="student\assets\img\social_icons\stumbleupon.png" />
+    <Content Include="student\assets\img\social_icons\technorati.png" />
+    <Content Include="student\assets\img\social_icons\tumblr.png" />
+    <Content Include="student\assets\img\social_icons\twitter.png" />
+    <Content Include="student\assets\img\social_icons\vimeo.png" />
+    <Content Include="student\assets\img\social_icons\wordpress.png" />
+    <Content Include="student\assets\img\social_icons\yahoo.png" />
+    <Content Include="student\assets\img\social_icons\yelp.png" />
+    <Content Include="student\assets\img\social_icons\youtube.png" />
+    <Content Include="student\assets\img\social_icons\zerply.png" />
+    <Content Include="student\assets\img\social_icons\zootool.png" />
+    <Content Include="student\assets\img\theteam\image1.jpg" />
+    <Content Include="student\assets\img\theteam\image2.jpg" />
+    <Content Include="student\assets\img\theteam\image3.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\image01.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\image02.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\image03.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\image04.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\image05.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\image06.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\image07.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\image08.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\image09.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\thumbs\image01.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\thumbs\image02.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\thumbs\image03.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\thumbs\image04.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\thumbs\image05.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\thumbs\image06.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\thumbs\image07.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\thumbs\image08.jpg" />
+    <Content Include="student\assets\img\thumbsgallery\thumbs\image09.jpg" />
+    <Content Include="student\assets\js\bootstrap.min.js" />
+    <Content Include="student\assets\js\jquery.isotope.js" />
+    <Content Include="student\assets\js\jquery.min.js" />
+    <Content Include="student\assets\js\jquery.slicknav.js" />
+    <Content Include="student\assets\js\jquery.sticky.js" />
+    <Content Include="student\assets\js\jquery.visible.js" />
+    <Content Include="student\assets\js\modernizr.custom.js" />
+    <Content Include="student\assets\js\scripts.js" />
+    <Content Include="student\assets\js\slimbox2.js" />
+    <Content Include="student\assets\less\bootstrap\bootstrap.css" />
+    <Content Include="student\index.aspx" />
+    <Content Include="student\joinexam.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -234,6 +377,29 @@
     </Compile>
     <Compile Include="Share.Master.designer.cs">
       <DependentUpon>Share.Master</DependentUpon>
+    </Compile>
+    <Compile Include="student\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student\joinexam.aspx.cs">
+      <DependentUpon>joinexam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\joinexam.aspx.designer.cs">
+      <DependentUpon>joinexam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student\Person.cs" />
+    <Compile Include="student\student.cs" />
+    <Compile Include="student\Student.Master.cs">
+      <DependentUpon>Student.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\Student.Master.designer.cs">
+      <DependentUpon>Student.Master</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -308,7 +474,77 @@
     <Content Include="assets\less\typo.less" />
     <Content Include="assets\less\utility-classes.less" />
     <Content Include="assets\less\variables.less" />
-    <Content Include="student\Thumbs.db" />
+    <Content Include="student\Student.Master" />
+    <Content Include="student\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="student\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="student\assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="student\assets\fonts\FontAwesome.otf" />
+    <Content Include="student\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="student\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="student\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="student\assets\less\accordions.less" />
+    <Content Include="student\assets\less\blockquotes.less" />
+    <Content Include="student\assets\less\blog.less" />
+    <Content Include="student\assets\less\bootstrap\alerts.less" />
+    <Content Include="student\assets\less\bootstrap\badges.less" />
+    <Content Include="student\assets\less\bootstrap\bootstrap.less" />
+    <Content Include="student\assets\less\bootstrap\breadcrumbs.less" />
+    <Content Include="student\assets\less\bootstrap\button-groups.less" />
+    <Content Include="student\assets\less\bootstrap\buttons.less" />
+    <Content Include="student\assets\less\bootstrap\carousel.less" />
+    <Content Include="student\assets\less\bootstrap\close.less" />
+    <Content Include="student\assets\less\bootstrap\code.less" />
+    <Content Include="student\assets\less\bootstrap\component-animations.less" />
+    <Content Include="student\assets\less\bootstrap\dropdowns.less" />
+    <Content Include="student\assets\less\bootstrap\forms.less" />
+    <Content Include="student\assets\less\bootstrap\glyphicons.less" />
+    <Content Include="student\assets\less\bootstrap\grid.less" />
+    <Content Include="student\assets\less\bootstrap\input-groups.less" />
+    <Content Include="student\assets\less\bootstrap\jumbotron.less" />
+    <Content Include="student\assets\less\bootstrap\labels.less" />
+    <Content Include="student\assets\less\bootstrap\list-group.less" />
+    <Content Include="student\assets\less\bootstrap\media.less" />
+    <Content Include="student\assets\less\bootstrap\mixins.less" />
+    <Content Include="student\assets\less\bootstrap\modals.less" />
+    <Content Include="student\assets\less\bootstrap\navbar.less" />
+    <Content Include="student\assets\less\bootstrap\navs.less" />
+    <Content Include="student\assets\less\bootstrap\normalize.less" />
+    <Content Include="student\assets\less\bootstrap\pager.less" />
+    <Content Include="student\assets\less\bootstrap\pagination.less" />
+    <Content Include="student\assets\less\bootstrap\panels.less" />
+    <Content Include="student\assets\less\bootstrap\popovers.less" />
+    <Content Include="student\assets\less\bootstrap\print.less" />
+    <Content Include="student\assets\less\bootstrap\progress-bars.less" />
+    <Content Include="student\assets\less\bootstrap\responsive-utilities.less" />
+    <Content Include="student\assets\less\bootstrap\scaffolding.less" />
+    <Content Include="student\assets\less\bootstrap\tables.less" />
+    <Content Include="student\assets\less\bootstrap\theme.less" />
+    <Content Include="student\assets\less\bootstrap\thumbnails.less" />
+    <Content Include="student\assets\less\bootstrap\tooltip.less" />
+    <Content Include="student\assets\less\bootstrap\type.less" />
+    <Content Include="student\assets\less\bootstrap\utilities.less" />
+    <Content Include="student\assets\less\bootstrap\wells.less" />
+    <Content Include="student\assets\less\bootstrap.less" />
+    <Content Include="student\assets\less\carousels.less" />
+    <Content Include="student\assets\less\font-awesome.less" />
+    <Content Include="student\assets\less\glyphicons.less" />
+    <Content Include="student\assets\less\hornav.less" />
+    <Content Include="student\assets\less\mixins.less" />
+    <Content Include="student\assets\less\nexus.less" />
+    <Content Include="student\assets\less\pages.less" />
+    <Content Include="student\assets\less\panels.less" />
+    <Content Include="student\assets\less\portfolio.less" />
+    <Content Include="student\assets\less\progress-bars.less" />
+    <Content Include="student\assets\less\responsive-nav.less" />
+    <Content Include="student\assets\less\sidebar-menu.less" />
+    <Content Include="student\assets\less\social-icons.less" />
+    <Content Include="student\assets\less\tabs.less" />
+    <Content Include="student\assets\less\template.less" />
+    <Content Include="student\assets\less\testimonials.less" />
+    <Content Include="student\assets\less\thumbs-gallery.less" />
+    <Content Include="student\assets\less\typo.less" />
+    <Content Include="student\assets\less\utility-classes.less" />
+    <Content Include="student\assets\less\variables.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

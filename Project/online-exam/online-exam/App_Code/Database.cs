@@ -24,7 +24,7 @@ namespace EsOnlineExam
         /// </summary>
         public Database()
         {
-            String connectionString = "Server=localhost; Port=3306; Database=reportsenderdb; Uid=root;";
+            String connectionString = "Server=88.198.75.21,1433; Database=Bilal;User Id=bilal; Password=bilal123;";
             baglanti = new SqlConnection(connectionString);
         }
         /// <summary>

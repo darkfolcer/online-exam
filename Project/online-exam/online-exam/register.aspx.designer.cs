@@ -13,6 +13,15 @@ namespace EsOnlineExam {
     public partial class register {
         
         /// <summary>
+        /// userTypeDrpDwnLst control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList userTypeDrpDwnLst;
+        
+        /// <summary>
         /// userTypeLtrl control.
         /// </summary>
         /// <remarks>
@@ -76,12 +85,30 @@ namespace EsOnlineExam {
         protected global::System.Web.UI.WebControls.TextBox confirmPasswordTxt;
         
         /// <summary>
-        /// Button1 control.
+        /// registerBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button registerBtn;
+        
+        /// <summary>
+        /// lbl_Failed control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_Failed;
+        
+        /// <summary>
+        /// succeedLtrl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal succeedLtrl;
     }
 }

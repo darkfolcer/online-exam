@@ -16,7 +16,7 @@
                                            
                                                   <h3 class="progress-label">I am ...</h3>
                                            
-                                        <asp:DropDownList runat="server" CssClass=" form-control margin-bottom-20" required="true">
+                                        <asp:DropDownList ID="userTypeDrpDwnLst" runat="server" CssClass=" form-control margin-bottom-20" required="true">
                                             <asp:ListItem>Instructor</asp:ListItem>
                                             <asp:ListItem>Student</asp:ListItem>
                                         </asp:DropDownList> 
@@ -58,9 +58,11 @@
                                                 </label>
                                             </div>
                                             <div class="col-lg-4 text-right">
-                                                <asp:Button ID="Button1" class="btn btn-primary" runat="server" Text="Register"></asp:Button>
+                                                <asp:Button ID="registerBtn" class="btn btn-primary" runat="server" Text="Register" OnClick="registerBtn_Click"></asp:Button>
                                             </div>
                                         </div>
+                                        <asp:Label runat="server" class="label label-danger" ID="lbl_Failed"  Visible="false"></asp:Label>
+                                        <asp:Literal runat="server" Visible="false" ID="succeedLtrl"></asp:Literal>
                                     </div>
                                 </div>
                           </div>

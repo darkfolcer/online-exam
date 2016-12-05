@@ -198,6 +198,7 @@
     <Content Include="admin\assets\js\scripts.js" />
     <Content Include="admin\assets\js\slimbox2.js" />
     <Content Include="admin\assets\less\bootstrap\bootstrap.css" />
+    <Content Include="admin\index.aspx" />
     <Content Include="assets\css\animate.css" />
     <Content Include="assets\css\bootstrap.css" />
     <Content Include="assets\css\font-awesome.css" />
@@ -494,6 +495,13 @@
     </Compile>
     <Compile Include="admin\admin.Master.designer.cs">
       <DependentUpon>admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="admin\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

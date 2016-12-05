@@ -57,6 +57,148 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin\assets\css\animate.css" />
+    <Content Include="admin\assets\css\bootstrap.css" />
+    <Content Include="admin\assets\css\font-awesome.css" />
+    <Content Include="admin\assets\css\nexus.css" />
+    <Content Include="admin\assets\css\responsive.css" />
+    <Content Include="admin\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="admin\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="admin\assets\img\blog\image1.jpg" />
+    <Content Include="admin\assets\img\blog\image2.jpg" />
+    <Content Include="admin\assets\img\blog\image3.jpg" />
+    <Content Include="admin\assets\img\blog\image4.jpg" />
+    <Content Include="admin\assets\img\blog\thumbs\thumb1.jpg" />
+    <Content Include="admin\assets\img\blog\thumbs\thumb2.jpg" />
+    <Content Include="admin\assets\img\blog\thumbs\thumb3.jpg" />
+    <Content Include="admin\assets\img\blog\thumbs\thumb4.jpg" />
+    <Content Include="admin\assets\img\closelabel.gif" />
+    <Content Include="admin\assets\img\fillers\aboutme.jpg" />
+    <Content Include="admin\assets\img\fillers\filler1.jpg" />
+    <Content Include="admin\assets\img\fillers\filler2.jpg" />
+    <Content Include="admin\assets\img\fillers\filler3.jpg" />
+    <Content Include="admin\assets\img\fillers\filler4.jpg" />
+    <Content Include="admin\assets\img\frontpage\image1.png" />
+    <Content Include="admin\assets\img\frontpage\image2.png" />
+    <Content Include="admin\assets\img\frontpage\image3.png" />
+    <Content Include="admin\assets\img\frontpage\image4.png" />
+    <Content Include="admin\assets\img\frontpage\responsive_homepage.png" />
+    <Content Include="admin\assets\img\hr.png" />
+    <Content Include="admin\assets\img\link.png" />
+    <Content Include="admin\assets\img\loading.gif" />
+    <Content Include="admin\assets\img\logo.png" />
+    <Content Include="admin\assets\img\menu_arrow.png" />
+    <Content Include="admin\assets\img\nextlabel.gif" />
+    <Content Include="admin\assets\img\portfolio\image1.jpg" />
+    <Content Include="admin\assets\img\portfolio\image10.jpg" />
+    <Content Include="admin\assets\img\portfolio\image11.jpg" />
+    <Content Include="admin\assets\img\portfolio\image12.jpg" />
+    <Content Include="admin\assets\img\portfolio\image2.jpg" />
+    <Content Include="admin\assets\img\portfolio\image3.jpg" />
+    <Content Include="admin\assets\img\portfolio\image4.jpg" />
+    <Content Include="admin\assets\img\portfolio\image5.jpg" />
+    <Content Include="admin\assets\img\portfolio\image6.jpg" />
+    <Content Include="admin\assets\img\portfolio\image7.jpg" />
+    <Content Include="admin\assets\img\portfolio\image8.jpg" />
+    <Content Include="admin\assets\img\portfolio\image9.jpg" />
+    <Content Include="admin\assets\img\prevlabel.gif" />
+    <Content Include="admin\assets\img\profiles\37.jpg" />
+    <Content Include="admin\assets\img\profiles\53.jpg" />
+    <Content Include="admin\assets\img\profiles\78.jpg" />
+    <Content Include="admin\assets\img\profiles\84.jpg" />
+    <Content Include="admin\assets\img\profiles\87.jpg" />
+    <Content Include="admin\assets\img\profiles\99.jpg" />
+    <Content Include="admin\assets\img\sample_bg.jpg" />
+    <Content Include="admin\assets\img\slideshow\loading.gif" />
+    <Content Include="admin\assets\img\slideshow\next.png" />
+    <Content Include="admin\assets\img\slideshow\pagination.png" />
+    <Content Include="admin\assets\img\slideshow\prev.png" />
+    <Content Include="admin\assets\img\slideshow\slide1.jpg" />
+    <Content Include="admin\assets\img\slideshow\slide2.jpg" />
+    <Content Include="admin\assets\img\slideshow\slide3.jpg" />
+    <Content Include="admin\assets\img\slideshow\slide4.jpg" />
+    <Content Include="admin\assets\img\social_icons\aim.png" />
+    <Content Include="admin\assets\img\social_icons\apple.png" />
+    <Content Include="admin\assets\img\social_icons\behance.png" />
+    <Content Include="admin\assets\img\social_icons\blogger.png" />
+    <Content Include="admin\assets\img\social_icons\cargo.png" />
+    <Content Include="admin\assets\img\social_icons\delicious.png" />
+    <Content Include="admin\assets\img\social_icons\deviantart.png" />
+    <Content Include="admin\assets\img\social_icons\digg.png" />
+    <Content Include="admin\assets\img\social_icons\dopplr.png" />
+    <Content Include="admin\assets\img\social_icons\dribbble.png" />
+    <Content Include="admin\assets\img\social_icons\email.png" />
+    <Content Include="admin\assets\img\social_icons\ember.png" />
+    <Content Include="admin\assets\img\social_icons\evernote.png" />
+    <Content Include="admin\assets\img\social_icons\facebook.png" />
+    <Content Include="admin\assets\img\social_icons\flickr.png" />
+    <Content Include="admin\assets\img\social_icons\forrst.png" />
+    <Content Include="admin\assets\img\social_icons\github.png" />
+    <Content Include="admin\assets\img\social_icons\google.png" />
+    <Content Include="admin\assets\img\social_icons\googleplus.png" />
+    <Content Include="admin\assets\img\social_icons\gowalla.png" />
+    <Content Include="admin\assets\img\social_icons\grooveshark.png" />
+    <Content Include="admin\assets\img\social_icons\html5.png" />
+    <Content Include="admin\assets\img\social_icons\icloud.png" />
+    <Content Include="admin\assets\img\social_icons\lastfm.png" />
+    <Content Include="admin\assets\img\social_icons\linkedin.png" />
+    <Content Include="admin\assets\img\social_icons\metacafe.png" />
+    <Content Include="admin\assets\img\social_icons\mixx.png" />
+    <Content Include="admin\assets\img\social_icons\myspace.png" />
+    <Content Include="admin\assets\img\social_icons\netvibes.png" />
+    <Content Include="admin\assets\img\social_icons\newsvine.png" />
+    <Content Include="admin\assets\img\social_icons\orkut.png" />
+    <Content Include="admin\assets\img\social_icons\paypal.png" />
+    <Content Include="admin\assets\img\social_icons\picasa.png" />
+    <Content Include="admin\assets\img\social_icons\pinterest.png" />
+    <Content Include="admin\assets\img\social_icons\plurk.png" />
+    <Content Include="admin\assets\img\social_icons\posterous.png" />
+    <Content Include="admin\assets\img\social_icons\reddit.png" />
+    <Content Include="admin\assets\img\social_icons\rss.png" />
+    <Content Include="admin\assets\img\social_icons\skype.png" />
+    <Content Include="admin\assets\img\social_icons\stumbleupon.png" />
+    <Content Include="admin\assets\img\social_icons\technorati.png" />
+    <Content Include="admin\assets\img\social_icons\tumblr.png" />
+    <Content Include="admin\assets\img\social_icons\twitter.png" />
+    <Content Include="admin\assets\img\social_icons\vimeo.png" />
+    <Content Include="admin\assets\img\social_icons\wordpress.png" />
+    <Content Include="admin\assets\img\social_icons\yahoo.png" />
+    <Content Include="admin\assets\img\social_icons\yelp.png" />
+    <Content Include="admin\assets\img\social_icons\youtube.png" />
+    <Content Include="admin\assets\img\social_icons\zerply.png" />
+    <Content Include="admin\assets\img\social_icons\zootool.png" />
+    <Content Include="admin\assets\img\theteam\image1.jpg" />
+    <Content Include="admin\assets\img\theteam\image2.jpg" />
+    <Content Include="admin\assets\img\theteam\image3.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\image01.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\image02.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\image03.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\image04.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\image05.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\image06.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\image07.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\image08.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\image09.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\thumbs\image01.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\thumbs\image02.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\thumbs\image03.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\thumbs\image04.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\thumbs\image05.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\thumbs\image06.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\thumbs\image07.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\thumbs\image08.jpg" />
+    <Content Include="admin\assets\img\thumbsgallery\thumbs\image09.jpg" />
+    <Content Include="admin\assets\js\bootstrap.min.js" />
+    <Content Include="admin\assets\js\jquery.isotope.js" />
+    <Content Include="admin\assets\js\jquery.min.js" />
+    <Content Include="admin\assets\js\jquery.slicknav.js" />
+    <Content Include="admin\assets\js\jquery.sticky.js" />
+    <Content Include="admin\assets\js\jquery.visible.js" />
+    <Content Include="admin\assets\js\modernizr.custom.js" />
+    <Content Include="admin\assets\js\scripts.js" />
+    <Content Include="admin\assets\js\slimbox2.js" />
+    <Content Include="admin\assets\less\bootstrap\bootstrap.css" />
+    <Content Include="admin\index.aspx" />
     <Content Include="assets\css\animate.css" />
     <Content Include="assets\css\bootstrap.css" />
     <Content Include="assets\css\font-awesome.css" />
@@ -347,6 +489,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin\admin.Master.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\admin.Master.designer.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="admin\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -545,6 +701,77 @@
     <Content Include="student\assets\less\typo.less" />
     <Content Include="student\assets\less\utility-classes.less" />
     <Content Include="student\assets\less\variables.less" />
+    <Content Include="admin\admin.Master" />
+    <Content Include="admin\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="admin\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="admin\assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="admin\assets\fonts\FontAwesome.otf" />
+    <Content Include="admin\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="admin\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="admin\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="admin\assets\less\accordions.less" />
+    <Content Include="admin\assets\less\blockquotes.less" />
+    <Content Include="admin\assets\less\blog.less" />
+    <Content Include="admin\assets\less\bootstrap\alerts.less" />
+    <Content Include="admin\assets\less\bootstrap\badges.less" />
+    <Content Include="admin\assets\less\bootstrap\bootstrap.less" />
+    <Content Include="admin\assets\less\bootstrap\breadcrumbs.less" />
+    <Content Include="admin\assets\less\bootstrap\button-groups.less" />
+    <Content Include="admin\assets\less\bootstrap\buttons.less" />
+    <Content Include="admin\assets\less\bootstrap\carousel.less" />
+    <Content Include="admin\assets\less\bootstrap\close.less" />
+    <Content Include="admin\assets\less\bootstrap\code.less" />
+    <Content Include="admin\assets\less\bootstrap\component-animations.less" />
+    <Content Include="admin\assets\less\bootstrap\dropdowns.less" />
+    <Content Include="admin\assets\less\bootstrap\forms.less" />
+    <Content Include="admin\assets\less\bootstrap\glyphicons.less" />
+    <Content Include="admin\assets\less\bootstrap\grid.less" />
+    <Content Include="admin\assets\less\bootstrap\input-groups.less" />
+    <Content Include="admin\assets\less\bootstrap\jumbotron.less" />
+    <Content Include="admin\assets\less\bootstrap\labels.less" />
+    <Content Include="admin\assets\less\bootstrap\list-group.less" />
+    <Content Include="admin\assets\less\bootstrap\media.less" />
+    <Content Include="admin\assets\less\bootstrap\mixins.less" />
+    <Content Include="admin\assets\less\bootstrap\modals.less" />
+    <Content Include="admin\assets\less\bootstrap\navbar.less" />
+    <Content Include="admin\assets\less\bootstrap\navs.less" />
+    <Content Include="admin\assets\less\bootstrap\normalize.less" />
+    <Content Include="admin\assets\less\bootstrap\pager.less" />
+    <Content Include="admin\assets\less\bootstrap\pagination.less" />
+    <Content Include="admin\assets\less\bootstrap\panels.less" />
+    <Content Include="admin\assets\less\bootstrap\popovers.less" />
+    <Content Include="admin\assets\less\bootstrap\print.less" />
+    <Content Include="admin\assets\less\bootstrap\progress-bars.less" />
+    <Content Include="admin\assets\less\bootstrap\responsive-utilities.less" />
+    <Content Include="admin\assets\less\bootstrap\scaffolding.less" />
+    <Content Include="admin\assets\less\bootstrap\tables.less" />
+    <Content Include="admin\assets\less\bootstrap\theme.less" />
+    <Content Include="admin\assets\less\bootstrap\thumbnails.less" />
+    <Content Include="admin\assets\less\bootstrap\tooltip.less" />
+    <Content Include="admin\assets\less\bootstrap\type.less" />
+    <Content Include="admin\assets\less\bootstrap\utilities.less" />
+    <Content Include="admin\assets\less\bootstrap\wells.less" />
+    <Content Include="admin\assets\less\bootstrap.less" />
+    <Content Include="admin\assets\less\carousels.less" />
+    <Content Include="admin\assets\less\font-awesome.less" />
+    <Content Include="admin\assets\less\glyphicons.less" />
+    <Content Include="admin\assets\less\hornav.less" />
+    <Content Include="admin\assets\less\mixins.less" />
+    <Content Include="admin\assets\less\nexus.less" />
+    <Content Include="admin\assets\less\pages.less" />
+    <Content Include="admin\assets\less\panels.less" />
+    <Content Include="admin\assets\less\portfolio.less" />
+    <Content Include="admin\assets\less\progress-bars.less" />
+    <Content Include="admin\assets\less\responsive-nav.less" />
+    <Content Include="admin\assets\less\sidebar-menu.less" />
+    <Content Include="admin\assets\less\social-icons.less" />
+    <Content Include="admin\assets\less\tabs.less" />
+    <Content Include="admin\assets\less\template.less" />
+    <Content Include="admin\assets\less\testimonials.less" />
+    <Content Include="admin\assets\less\thumbs-gallery.less" />
+    <Content Include="admin\assets\less\typo.less" />
+    <Content Include="admin\assets\less\utility-classes.less" />
+    <Content Include="admin\assets\less\variables.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -553,7 +780,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="admin\" />
     <Folder Include="instructor\" />
   </ItemGroup>
   <PropertyGroup>

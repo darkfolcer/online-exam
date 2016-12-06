@@ -154,7 +154,7 @@ namespace EsOnlineExam
             startDB();
             try
             {
-                string query = "SELECT * FROM users WHERE SSN=@param1 AND Password=@param2";
+                string query = "SELECT * FROM Person WHERE username=@param1 AND password=@param2";
                 SqlCommand cmd;
                 cmd = SqlCommand(query);
                 cmd.Parameters.AddWithValue("@param1", username);
@@ -162,7 +162,7 @@ namespace EsOnlineExam
                 dataRow = SelectData(cmd);
                 if (dataRow != null)
                 {
-                    if (dataRow["role"].ToString().Equals("student"))
+                    if (dataRow["role"].ToString().Equals("Student"))
                         return 1;
 
                     else if (dataRow["role"].ToString().Equals("instructor"))

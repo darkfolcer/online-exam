@@ -5,7 +5,7 @@ using System.Data;
 using System.Data.Common;
 using System.Linq;
 using System.Web;
-//author bilal.
+//!!!PLEASE DO NOT COMMIT THIS PAGE!!!
 namespace EsOnlineExam
 {
     /// <summary>
@@ -24,7 +24,7 @@ namespace EsOnlineExam
         /// </summary>
         public Database()
         {
-            String connectionString = "Server=88.198.75.21,1433; Database=Bilal;User Id=bilal; Password=bilal123;";
+            String connectionString = "";
             baglanti = new SqlConnection(connectionString);
         }
         /// <summary>

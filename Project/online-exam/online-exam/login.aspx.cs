@@ -12,6 +12,13 @@ namespace EsOnlineExam
         Database db = new Database();
         protected void Page_Load(object sender, EventArgs e)
         {
+            if(Session["Student"] != null ){
+                Response.Redirect("~/student/index.aspx");              
+            }
+            else if (Session["Instructor"] != null)
+            {
+                Response.Redirect("~/instructor/index.aspx");
+            }
 
         }
 
@@ -19,9 +26,15 @@ namespace EsOnlineExam
         {
             int result = db.UserLogin(userNameTxt.Text.ToString(), passwordTxt.Text.ToString());
             if (result == 1)
+            {
+                Session["Student"] = userNameTxt.Text.ToString();
                 Response.Redirect("~/student/index.aspx");
-            else if (result == 2)
+            }
+            else if (result == 2){
+                Session["Instructor"] = userNameTxt.Text.ToString();
                 Response.Redirect("~/instructor/index.aspx");
+
+            }
             else
             {
                 lbl_Failed.Text = "Username or password is wrong. Please check your details.";

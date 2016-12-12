@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Instructor/instructor.master" AutoEventWireup="true" CodeFile="createLecture.aspx.cs" Inherits="Instructor_Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Instructor/instructor.master" AutoEventWireup="true" CodeFile="createLecture.aspx.cs" Inherits="EsOnlineExam.instructor.createLecture" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" Runat="Server">
     <div id="content">

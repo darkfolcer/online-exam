@@ -629,6 +629,7 @@
     <Content Include="student\assets\less\bootstrap\bootstrap.css" />
     <Content Include="student\index.aspx" />
     <Content Include="student\joinexam.aspx" />
+    <Content Include="student\question.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -700,6 +701,13 @@
       <DependentUpon>joinexam.aspx</DependentUpon>
     </Compile>
     <Compile Include="student\Person.cs" />
+    <Compile Include="student\question.aspx.cs">
+      <DependentUpon>question.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\question.aspx.designer.cs">
+      <DependentUpon>question.aspx</DependentUpon>
+    </Compile>
     <Compile Include="student\student.cs" />
     <Compile Include="student\Student.Master.cs">
       <DependentUpon>Student.Master</DependentUpon>

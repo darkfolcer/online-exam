@@ -58,14 +58,37 @@
                                 <div class="pull-right visible-lg">
                                     <ul id="hornavmenu" class="nav navbar-nav">
                                         <li>
-                                            <a href="default.aspx" class="fa-home">Instructor Home</a>
+                                            <a href="index.aspx" class="fa-home">Instructor Home</a>
                                         </li>
                                         
-                                       
+                                       <li>
+                                            <span class="fa-copy">Create</span>
+                                            <ul>
+                                                <li>
+                                                    <a href="createLecture.aspx">New Lecture</a>
+                                                </li>
+                                                <li>
+                                                    <a href="createClass.aspx">ClassList</a>
+                                                </li>
+                                                <li>
+                                                    <a href="createExam.aspx">Exam</a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </li>
                                         
                                         
                                         <li>
-                                            <a href="contact.html" class="fa-comment">Contact</a>
+                                            <span class="fa-user">Account</span>
+                                            <ul>
+                                                <li>
+                                                    <a href="profile.aspx">Edit</a>
+                                                </li>
+                                                <li>
+                                                    <a href="login.aspx">Logout</a>
+                                                </li>
+                                                
+                                            </ul>
                                         </li>
                                     </ul>
                                 </div>

@@ -142,7 +142,7 @@ namespace EsOnlineExam
         }
 
         /// <summary>
-        /// The login method which takes SSN and Password.
+        /// The login method which takes username and Password.
         /// </summary>
         /// <param name="username"></param>
         /// <param name="password"></param>

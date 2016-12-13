@@ -1,1 +1,5 @@
-C:\Users\Bilal\Documents\Visual Studio 2012\Projects\Online Exam\online-exam\Project\online-exam\online-exam\obj\Debug\EsOnlineExam.csprojResolveAssemblyReference.cache
+C:\Users\Caglaa\Documents\GitHub\online-exam\Project\online-exam\online-exam\bin\online-exam.dll
+C:\Users\Caglaa\Documents\GitHub\online-exam\Project\online-exam\online-exam\bin\online-exam.pdb
+C:\Users\Caglaa\Documents\GitHub\online-exam\Project\online-exam\online-exam\obj\Debug\EsOnlineExam.csprojResolveAssemblyReference.cache
+C:\Users\Caglaa\Documents\GitHub\online-exam\Project\online-exam\online-exam\obj\Debug\online-exam.dll
+C:\Users\Caglaa\Documents\GitHub\online-exam\Project\online-exam\online-exam\obj\Debug\online-exam.pdb

@@ -20,7 +20,7 @@
                                     </ul>
                                      
                                 </div>
-                                   <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:BilalConnectionString %>" SelectCommand="SELECT Person.username, Person.name, Person.lastname, Person.role, Instructor.instructorID, Instructor.department, Instructor.isApproved FROM Person INNER JOIN Instructor ON Person.personID = Instructor.personID WHERE (Instructor.isApproved = 0)" UpdateCommand="UPDATE Instructor SET isApproved = 1"></asp:SqlDataSource>
+                                   <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:BilalConnectionString %>" SelectCommand="SELECT Instructor.instructorID, Person.username, Person.name, Person.lastname, Person.role, Instructor.department, Instructor.isApproved FROM Person INNER JOIN Instructor ON Person.personID = Instructor.personID WHERE (Instructor.isApproved = 0)" UpdateCommand="UPDATE Instructor SET isApproved = 1"></asp:SqlDataSource>
                                 <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False" DataKeyNames="username" DataSourceID="SqlDataSource1">
                                     <Columns>
                                         <asp:BoundField DataField="username" HeaderText="username" ReadOnly="True" SortExpression="username" />

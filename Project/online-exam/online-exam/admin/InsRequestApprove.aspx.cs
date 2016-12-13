@@ -20,7 +20,7 @@ namespace EsOnlineExam.admin
 
         public void PopulateData()
         {
-            string query = "Select * from instructor where isApproved=0";
+            string query = "Select * from Instructor where isApproved=0";
             SqlCommand cmd;
             cmd=db.SqlCommand(query);
             DataRow dr;

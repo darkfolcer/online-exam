@@ -5,7 +5,7 @@ using System.Data;
 using System.Data.Common;
 using System.Linq;
 using System.Web;
-//author bilal.
+//!!!PLEASE DO NOT COMMIT THIS PAGE!!!
 namespace EsOnlineExam
 {
     /// <summary>
@@ -24,7 +24,7 @@ namespace EsOnlineExam
         /// </summary>
         public Database()
         {
-            String connectionString = "Server=88.198.75.21,1433; Database=Bilal;User Id=bilal; Password=bilal123;";
+            String connectionString = "";
             baglanti = new SqlConnection(connectionString);
         }
         /// <summary>
@@ -142,7 +142,7 @@ namespace EsOnlineExam
         }
 
         /// <summary>
-        /// The login method which takes SSN and Password.
+        /// The login method which takes username and Password.
         /// </summary>
         /// <param name="username"></param>
         /// <param name="password"></param>
@@ -154,7 +154,7 @@ namespace EsOnlineExam
             startDB();
             try
             {
-                string query = "SELECT * FROM users WHERE SSN=@param1 AND Password=@param2";
+                string query = "SELECT * FROM Person WHERE username=@param1 AND password=@param2";
                 SqlCommand cmd;
                 cmd = SqlCommand(query);
                 cmd.Parameters.AddWithValue("@param1", username);
@@ -162,7 +162,7 @@ namespace EsOnlineExam
                 dataRow = SelectData(cmd);
                 if (dataRow != null)
                 {
-                    if (dataRow["role"].ToString().Equals("student"))
+                    if (dataRow["role"].ToString().Equals("Student"))
                         return 1;
 
                     else if (dataRow["role"].ToString().Equals("instructor"))

@@ -1,5 +1,0 @@
-C:\Users\Bilal\Documents\Visual Studio 2012\Projects\Online Exam\online-exam\Project\online-exam\online-exam\bin\online-exam.dll
-C:\Users\Bilal\Documents\Visual Studio 2012\Projects\Online Exam\online-exam\Project\online-exam\online-exam\bin\online-exam.pdb
-C:\Users\Bilal\Documents\Visual Studio 2012\Projects\Online Exam\online-exam\Project\online-exam\online-exam\obj\Debug\online-exam.dll
-C:\Users\Bilal\Documents\Visual Studio 2012\Projects\Online Exam\online-exam\Project\online-exam\online-exam\obj\Debug\online-exam.pdb
-C:\Users\Bilal\Documents\Visual Studio 2012\Projects\Online Exam\online-exam\Project\online-exam\online-exam\obj\Debug\EsOnlineExam.csprojResolveAssemblyReference.cache

@@ -28,9 +28,11 @@
                                                         <input type="checkbox">Stay signed in</label>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <asp:Button runat="server" class="btn btn-primary pull-right" type="submit" Text="Login"></asp:Button>
+                                                    <asp:Button runat="server" ID="loginBtn" class="btn btn-primary pull-right" type="submit" Text="Login" OnClick="loginBtn_Click"></asp:Button>
                                                 </div>
                                             </div>
+                                            <asp:Label runat="server" class="label label-danger" ID="lbl_Failed"  Visible="false"></asp:Label>
+
                                             <hr>
                                             <h4>Forget your Password ?</h4>
                                             <p>

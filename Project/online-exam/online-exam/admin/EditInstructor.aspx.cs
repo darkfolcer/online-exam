@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace EsOnlineExam.admin
 {
-    public partial class WebForm2 : System.Web.UI.Page
+    public partial class WebForm3 : System.Web.UI.Page
     {
         Database db;
         protected void Page_Load(object sender, EventArgs e)
@@ -17,15 +17,14 @@ namespace EsOnlineExam.admin
             if (!IsPostBack)
                 PopulateData();
         }
-
         public void PopulateData()
         {
             string query = "Select * from Instructor where isApproved=0";
             SqlCommand cmd;
-            cmd=db.SqlCommand(query);
+            cmd = db.SqlCommand(query);
             DataRow dr;
             dr = db.SelectData(cmd);
-           
+
 
 
 

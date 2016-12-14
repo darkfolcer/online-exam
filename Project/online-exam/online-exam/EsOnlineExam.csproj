@@ -202,6 +202,7 @@
     <Content Include="admin\ListofInstructor.aspx" />
     <Content Include="admin\InsRequestApprove.aspx" />
     <Content Include="admin\EditInstructor.aspx" />
+    <Content Include="admin\AddInstructor.aspx" />
     <Content Include="assets\css\animate.css" />
     <Content Include="assets\css\bootstrap.css" />
     <Content Include="assets\css\font-awesome.css" />
@@ -671,6 +672,13 @@
     </Compile>
     <Compile Include="admin\EditInstructor.aspx.designer.cs">
       <DependentUpon>EditInstructor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\AddInstructor.aspx.cs">
+      <DependentUpon>AddInstructor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\AddInstructor.aspx.designer.cs">
+      <DependentUpon>AddInstructor.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

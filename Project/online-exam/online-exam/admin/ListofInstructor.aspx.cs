@@ -13,5 +13,15 @@ namespace EsOnlineExam.admin
         {
 
         }
+
+        protected void editInstructorButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("EditInstructor.aspx");
+        }
+
+        protected void addInsButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AddInstructor.aspx");
+        }
     }
 }

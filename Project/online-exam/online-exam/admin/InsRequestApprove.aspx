@@ -13,9 +13,6 @@
                                         <li class="list-group-item">
                                             <a href="InsRequestApprove.html">Instructor Request Approve</a>
                                         </li>
-                                        <li class="list-group-item">
-                                            <a href="EditInstructor.html">Instructor Request Approve</a>
-                                        </li>
 
                                     </ul>
                                      

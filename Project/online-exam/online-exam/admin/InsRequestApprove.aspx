@@ -20,18 +20,26 @@
                                     </ul>
                                      
                                 </div>
+                                <div class="col-md-9">
+                                    <div class="row">
+                                        <div class="col-md-12">
                                 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:BilalConnectionString %>" SelectCommand="SELECT Instructor.instructorID, Person.username, Person.name, Person.lastname, Person.role, Instructor.department, Instructor.isApproved FROM Person INNER JOIN Instructor ON Person.personID = Instructor.personID WHERE (Instructor.isApproved = 0)" UpdateCommand="UPDATE Instructor SET isApproved = 1"></asp:SqlDataSource>
-                                <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False" DataKeyNames="username" DataSourceID="SqlDataSource1">
+                                <asp:GridView ID="GridView1" CssClass="table table-bordered table-hover table-condensed " runat="server" AllowPaging="True" AutoGenerateColumns="False" DataKeyNames="username" DataSourceID="SqlDataSource1" AllowSorting="True">
                                     <Columns>
-                                        <asp:BoundField DataField="username" HeaderText="username" ReadOnly="True" SortExpression="username" />
-                                        <asp:BoundField DataField="name" HeaderText="name" SortExpression="name" />
-                                        <asp:BoundField DataField="lastname" HeaderText="lastname" SortExpression="lastname" />
-                                        <asp:BoundField DataField="role" HeaderText="role" SortExpression="role" />
-                                        <asp:BoundField DataField="instructorID" HeaderText="instructorID" SortExpression="instructorID" />
-                                        <asp:BoundField DataField="department" HeaderText="department" SortExpression="department" />
-                                        <asp:CheckBoxField DataField="isApproved" HeaderText="isApproved" SortExpression="isApproved" />
+                                        <asp:CommandField ShowEditButton="True" />
+                                        <asp:BoundField DataField="username" HeaderText="Username" ReadOnly="True" SortExpression="username" />
+                                        <asp:BoundField DataField="name" HeaderText="First Name" SortExpression="name" />
+                                        <asp:BoundField DataField="lastname" HeaderText="Last Name" SortExpression="lastname" />
+                                        <asp:BoundField DataField="role" HeaderText="Role" SortExpression="role" />
+                                        <asp:BoundField DataField="instructorID" HeaderText="ID" SortExpression="instructorID" />
+                                        <asp:BoundField DataField="department" HeaderText="Department" SortExpression="department" />
+                                        <asp:CheckBoxField DataField="isApproved" HeaderText="Approve" SortExpression="isApproved" />
+                                        <asp:ButtonField DataTextField="isApproved" HeaderText="Approve" SortExpression="isApproved"/>
                                     </Columns>
                                 </asp:GridView>
+                                    </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
         </div>

@@ -3,6 +3,20 @@
          <div id="content">
                         <div class="container">
                             <div class="row margin-vert-30">
+                                 <!-- Begin Sidebar Menu -->
+                                <div class="col-md-3" style="margin-left:-20px">
+                                    <ul class="list-group sidebar-nav" id="sidebar-nav">
+                                       
+                                        <li class="list-group-item">
+                                            <a href="ListofInstructor.html">List of Instructor</a>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <a href="InsRequestApprove.html">Instructor Request Approve</a>
+                                        </li>
+
+                                    </ul>
+                                     
+                                </div>
                                   <!-- Register Box -->
                                 <div class="col-md-6 col-md-offset-3 col-sm-offset-3">
                                     <div class="signup-page">
@@ -10,8 +24,7 @@
                                             <h2>Add a new Instructor account</h2>
                                         </div>
                                       
-                                       
-                                           
+                                                                               
                                         <asp:Literal runat="server" ID="userTypeLtrl" Visible="false"></asp:Literal>
 <%--                                     <label>  <asp:RequiredFieldValidator runat="server" ID="userTypeRequired" Display="Dynamic" ForeColor="Red" ControlToValidate="radioBtnListUserType" ErrorMessage="This is an Error" ValidationGroup="UserType">*</asp:RequiredFieldValidator></label>--%>
    

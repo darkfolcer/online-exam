@@ -14,8 +14,8 @@ namespace EsOnlineExam.admin
         Database db;
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-                PopulateData();
+            //if (!IsPostBack)
+            //    PopulateData();
         }
 
         public void PopulateData()

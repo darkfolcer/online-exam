@@ -13,12 +13,14 @@
                                         <li class="list-group-item">
                                             <a href="InsRequestApprove.html">Instructor Request Approve</a>
                                         </li>
-
+                                        <li class="list-group-item">
+                                            <a href="MyAccount.aspx">My Account</a>
+                                        </li>
                                     </ul>
                                      
                                 </div>
                                   <!-- Register Box -->
-                                <div class="col-md-6 col-md-offset-3 col-sm-offset-3">
+                                <div class="col-md-9">
                                     <div class="signup-page">
                                         <div class="signup-header">
                                             <h2>Add a new Instructor account</h2>
@@ -56,13 +58,10 @@
                                         <hr>
                                         <div class="row">
                                             <div class="col-lg-8">
-                                                <label class="checkbox">
-                                                    <input type="checkbox">I read the
-                                                    <a href="#">Terms and Conditions</a>
-                                                </label>
+                                               
                                             </div>
                                             <div class="col-lg-4 text-right">
-                                                <asp:Button ID="registerBtn" class="btn btn-primary" runat="server" Text="Register" OnClick="registerBtn_Click"></asp:Button>
+                                                <asp:Button ID="registerBtn" class="btn btn-primary" runat="server" Text="Add Instructor" OnClick="addInstructorBtn_Click"></asp:Button>
                                             </div>
                                         </div>
                                         <asp:Label runat="server" class="label label-danger" ID="lbl_Failed"  Visible="false"></asp:Label>

@@ -8,19 +8,21 @@
                                     <ul class="list-group sidebar-nav" id="sidebar-nav">
                                        
                                         <li class="list-group-item">
-                                            <a href="ListofInstructor.html">List of Instructor</a>
+                                            <a href="ListofInstructor.aspx">List of Instructor</a>
                                         </li>
                                         <li class="list-group-item">
-                                            <a href="InsRequestApprove.html">Instructor Request Approve</a>
+                                            <a href="InsRequestApprove.aspx">Instructor Request Approve</a>
                                         </li>
-
+                                        <li class="list-group-item">
+                                            <a href="MyAccount.aspx">My Account</a>
+                                        </li>
                                     </ul>
                                      
                                 </div>
                                  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:BilalConnectionString %>" SelectCommand="SELECT Person.personID, Person.username, Person.password, Person.name, Person.lastname, Person.age, Person.email, Person.city, Person.country, Person.phonenumber, Person.role, Instructor.department FROM Person INNER JOIN Instructor ON Person.personID = Instructor.personID WHERE (Instructor.isApproved = 1)" UpdateCommand="UPDATE Instructor SET isApproved = 1"></asp:SqlDataSource>
                                 <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False" DataKeyNames="username" DataSourceID="SqlDataSource1">
                                     <Columns>
-                                        <asp:CommandField ShowSelectButton="True" />
+                                        <asp:CommandField ShowSelectButton="True" ShowEditButton="True" />
                                         <asp:BoundField DataField="personID" HeaderText="personID" InsertVisible="False" ReadOnly="True" SortExpression="personID" />
                                         <asp:BoundField DataField="username" HeaderText="username" ReadOnly="True" SortExpression="username" />
                                         <asp:BoundField DataField="password" HeaderText="password" SortExpression="password" />
@@ -37,7 +39,6 @@
                                 </asp:GridView>
                                 <asp:Button ID="addInsButton" runat="server" OnClick="addInsButton_Click" Text="Add New Instructor" />
                                 <asp:Button ID="deleteInsButton" runat="server" Text="Delete Sellect Instructor" />
-                                <asp:Button ID="editInstructorButton" runat="server" OnClick="listInstructorButton_Click" Text="Edit of Instructor" />
                                 </div>
                             </div>
         </div>

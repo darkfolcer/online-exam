@@ -23,8 +23,8 @@
                                 <div class="col-md-9">
                                     <div class="row">
                                         <div class="col-md-12">
-                                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:BilalConnectionString %>" SelectCommand="SELECT Instructor.instructorID, Person.username, Person.name, Person.lastname, Person.role, Instructor.department, Instructor.isApproved FROM Person INNER JOIN Instructor ON Person.personID = Instructor.personID WHERE (Instructor.isApproved = 0)" UpdateCommand="UPDATE Instructor SET isApproved = 1"></asp:SqlDataSource>
-                                <asp:GridView ID="GridView1" CssClass="table table-bordered table-hover table-condensed " runat="server" AllowPaging="True" AutoGenerateColumns="False" DataKeyNames="username" DataSourceID="SqlDataSource1" AllowSorting="True">
+                                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:BilalConnectionString %>" SelectCommand="SELECT Instructor.instructorID, Person.username, Person.name, Person.lastname, Person.role, Instructor.department, Instructor.isApproved FROM Person INNER JOIN Instructor ON Person.personID = Instructor.personID WHERE (Instructor.isApproved = 0)"></asp:SqlDataSource>
+                                <asp:GridView ID="GridView1" CssClass="table table-bordered table-hover table-condensed " runat="server" AllowPaging="True" AutoGenerateColumns="False" DataKeyNames="username" DataSourceID="SqlDataSource1" AllowSorting="True" OnRowCommand="GridView1_RowCommand">
                                     <Columns>
                                         <asp:CommandField ShowEditButton="True" />
                                         <asp:BoundField DataField="username" HeaderText="Username" ReadOnly="True" SortExpression="username" />
@@ -33,11 +33,11 @@
                                         <asp:BoundField DataField="role" HeaderText="Role" SortExpression="role" />
                                         <asp:BoundField DataField="instructorID" HeaderText="ID" SortExpression="instructorID" />
                                         <asp:BoundField DataField="department" HeaderText="Department" SortExpression="department" />
-                                        <asp:CheckBoxField DataField="isApproved" HeaderText="Approve" SortExpression="isApproved" />
-                                        <asp:ButtonField DataTextField="isApproved" HeaderText="Approve" SortExpression="isApproved"/>
+                                        <asp:ButtonField HeaderText="Approve" CommandName="ID" SortExpression="isApproved" ButtonType="Button" Text="Accept"/>
                                     </Columns>
                                 </asp:GridView>
                                     </div>
+                                        <asp:Literal runat="server" ID="ltrlBilgi"></asp:Literal>
                                         </div>
                                     </div>
                                 </div>

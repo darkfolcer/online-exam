@@ -14,8 +14,7 @@
                                 <div class="col-md-10">
                                  
                                    <h3 class="title" >Question 1</h3> 
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat. Integer sed arcu. At vero eoset accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
-                                        qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                                     <p><asp:Literal runat="server" ID="questionLtrl"></asp:Literal></p>
                                     <p>
                                         <asp:RadioButton runat="server" GroupName="Answer"  ID="answerA" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna."/>
                                     </p>

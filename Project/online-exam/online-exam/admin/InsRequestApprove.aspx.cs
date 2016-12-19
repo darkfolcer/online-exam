@@ -11,7 +11,7 @@ namespace EsOnlineExam.admin
 {
     public partial class WebForm2 : System.Web.UI.Page
     {
-        Database db;
+        Database db = new Database();
         protected void Page_Load(object sender, EventArgs e)
         {
             //if (!IsPostBack)
@@ -31,6 +31,30 @@ namespace EsOnlineExam.admin
 
 
 
+        }
+
+        protected void GridView1_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if (e.CommandName == "ID")
+            {
+                int index = Convert.ToInt32(e.CommandArgument);
+                GridViewRow selectedRow = GridView1.Rows[index];
+                TableCell approved = selectedRow.Cells[5];
+                string ID = approved.Text.ToString();
+                db.startDB();
+                string query = "UPDATE Instructor SET isApproved =1 WHERE InstructorID ="+ID;
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandText = query;
+                cmd.Connection = db.baglanti;
+
+                if (db.Execute(cmd))
+                    Response.Redirect("~/admin/InsRequestApprove.aspx");
+                else
+                    ltrlBilgi.Text = "Başarısız";
+                
+
+
+            }
         }
     }
 }

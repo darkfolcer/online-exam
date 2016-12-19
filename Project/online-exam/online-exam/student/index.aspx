@@ -51,34 +51,27 @@
 
                                     <div class="row">
                                         <div class="col-md-12">
-                                    <h3 class="title" style="font-weight:400">Upcoming exams</h3>
-                                    <h7 style="margin: 0;"><a>Lecture:</a> MATH101 | <a>Instructor: </a>Madam Mayonez</h7>
-                                    <h4 style="margin: 0;"><a style="color:green">Available at</a>  7:00 am - 1:30 pm</h4>
+                                             <h3 class="title" style="font-weight:400">Upcoming exams</h3>
+                                            <asp:ListView runat="server" ID="examsLstView">
+                                                <ItemTemplate>                                          
+                                    <h7 style="margin: 0;"><a>Lecture:</a><%#Eval("LectureName") %>| <a>Instructor: </a><%#Eval("InstructorName") %></h7>
+                                    <h4 style="margin: 0;"><a style="color:green">Available at</a> <%#Eval("Date") %></h4>
                                     <p>
-                                        <small><a>Brief info:</a> Lorem ipsum dolor sit amet</small><br />
-                                      <button type="button" class="btn btn-primary btn-xs">JOIN EXAM</button>
+                                        <small><a>Brief info:</a><%#Eval("Description") %></small><br />
+                                      <button type="button" onclick="<% Response.Redirect("url") %>" class="btn btn-primary btn-xs">JOIN EXAM</button>
  
                                     </p>
-                                    <hr>
-                                    <h6 style="margin: 0;">Thursday</h6>
-                                    <h4 style="margin: 0;">7:00 am - 1:30 pm</h4>
-                                    <p>
-                                        <small>* Lorem ipsum dolor sit amet</small>
-                                    </p>
-                                    <hr>
-                                    <h6 style="margin: 0;">Fri-Sat</h6>
-                                    <h4 style="margin: 0;">7:00 am - 1:30 pm</h4>
-                                    <p>
-                                        <small>* Lorem ipsum dolor sit amet</small>
-                                    </p>
-                                    <hr>
-                                    <h6 style="margin: 0;">Suday</h6>
-                                    <h4 style="margin: 0;">CLOSED</h4>
-                                    <p>
-                                        <small>* Lorem ipsum dolor sit amet</small>
-                                    </p>
-                                    <hr>
-                                     <a href="exams.aspx" class="label label-info">SEE ALL YOUR EXAMS</a>
+                                                      <hr>
+                                                    </ItemTemplate>
+                                            </asp:ListView>
+                                            <asp:DataPager runat="server" ID="examsPager" PagedControlID="examsLstView">
+                                                <Fields>
+                                                    <asp:NextPreviousPagerField ShowFirstPageButton="true" ShowLastPageButton="true"  ShowNextPageButton="true" ShowPreviousPageButton="true"/>
+                                                </Fields>
+                                            </asp:DataPager>
+                                  
+                                    
+                                   <%--  <a href="exams.aspx" class="label label-info">SEE ALL YOUR EXAMS</a>--%>
 
                                 </div>
                                         </div>

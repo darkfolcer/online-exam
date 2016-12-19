@@ -199,6 +199,10 @@
     <Content Include="admin\assets\js\slimbox2.js" />
     <Content Include="admin\assets\less\bootstrap\bootstrap.css" />
     <Content Include="admin\index.aspx" />
+    <Content Include="admin\ListofInstructor.aspx" />
+    <Content Include="admin\InsRequestApprove.aspx" />
+    <Content Include="admin\AddInstructor.aspx" />
+    <Content Include="admin\MyAccount.aspx" />
     <Content Include="assets\css\animate.css" />
     <Content Include="assets\css\bootstrap.css" />
     <Content Include="assets\css\font-awesome.css" />
@@ -341,7 +345,6 @@
     <Content Include="assets\js\slimbox2.js" />
     <Content Include="assets\less\bootstrap\bootstrap.css" />
     <Content Include="index.aspx" />
-    <Content Include="instructor\addingQuestion.aspx" />
     <Content Include="instructor\assets\css\animate.css" />
     <Content Include="instructor\assets\css\bootstrap.css" />
     <Content Include="instructor\assets\css\font-awesome.css" />
@@ -485,12 +488,11 @@
     <Content Include="instructor\assets\js\slimbox2.js" />
     <Content Include="instructor\assets\less\bootstrap\bootstrap.css" />
     <Content Include="instructor\createClass.aspx" />
-    <Content Include="instructor\createExam.aspx" />
     <Content Include="instructor\createLecture.aspx" />
     <Content Include="instructor\index.aspx" />
-    <Content Include="instructor\recievedRequest.aspx" />
     <Content Include="login.aspx" />
     <Content Include="register.aspx" />
+    <Content Include="student\account.aspx" />
     <Content Include="student\assets\css\animate.css" />
     <Content Include="student\assets\css\bootstrap.css" />
     <Content Include="student\assets\css\font-awesome.css" />
@@ -632,6 +634,7 @@
     <Content Include="student\assets\js\scripts.js" />
     <Content Include="student\assets\js\slimbox2.js" />
     <Content Include="student\assets\less\bootstrap\bootstrap.css" />
+    <Content Include="student\classicquestion.aspx" />
     <Content Include="student\index.aspx" />
     <Content Include="student\joinexam.aspx" />
     <Content Include="student\question.aspx" />
@@ -652,6 +655,34 @@
     <Compile Include="admin\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="admin\ListofInstructor.aspx.cs">
+      <DependentUpon>ListofInstructor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\ListofInstructor.aspx.designer.cs">
+      <DependentUpon>ListofInstructor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\InsRequestApprove.aspx.cs">
+      <DependentUpon>InsRequestApprove.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\InsRequestApprove.aspx.designer.cs">
+      <DependentUpon>InsRequestApprove.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\AddInstructor.aspx.cs">
+      <DependentUpon>AddInstructor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\AddInstructor.aspx.designer.cs">
+      <DependentUpon>AddInstructor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\MyAccount.aspx.cs">
+      <DependentUpon>MyAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\MyAccount.aspx.designer.cs">
+      <DependentUpon>MyAccount.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -659,26 +690,12 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="instructor\addingQuestion.aspx.cs">
-      <DependentUpon>addingQuestion.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="instructor\addingQuestion.aspx.designer.cs">
-      <DependentUpon>addingQuestion.aspx</DependentUpon>
-    </Compile>
     <Compile Include="instructor\createClass.aspx.cs">
       <DependentUpon>createClass.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="instructor\createClass.aspx.designer.cs">
       <DependentUpon>createClass.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="instructor\createExam.aspx.cs">
-      <DependentUpon>createExam.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="instructor\createExam.aspx.designer.cs">
-      <DependentUpon>createExam.aspx</DependentUpon>
     </Compile>
     <Compile Include="instructor\createLecture.aspx.cs">
       <DependentUpon>createLecture.aspx</DependentUpon>
@@ -694,13 +711,6 @@
     <Compile Include="instructor\instructor.master.cs">
       <DependentUpon>instructor.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="instructor\recievedRequest.aspx.cs">
-      <DependentUpon>recievedRequest.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="instructor\recievedRequest.aspx.designer.cs">
-      <DependentUpon>recievedRequest.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
@@ -725,6 +735,20 @@
     </Compile>
     <Compile Include="Share.Master.designer.cs">
       <DependentUpon>Share.Master</DependentUpon>
+    </Compile>
+    <Compile Include="student\account.aspx.cs">
+      <DependentUpon>account.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\account.aspx.designer.cs">
+      <DependentUpon>account.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="student\classicquestion.aspx.cs">
+      <DependentUpon>classicquestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="student\classicquestion.aspx.designer.cs">
+      <DependentUpon>classicquestion.aspx</DependentUpon>
     </Compile>
     <Compile Include="student\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
@@ -1063,9 +1087,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>64784</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49814/</IISUrl>
+          <IISUrl>http://localhost:49815/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

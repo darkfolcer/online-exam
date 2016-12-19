@@ -47,30 +47,12 @@
                                 <!-- End Sidebar Menu -->
                                 <div class="col-md-9">
                                     <h2>Exam Information</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat. Integer sed arcu. At vero eos
-                                        et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
-                                        qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                                    <p><asp:Literal runat="server" ID="ltrlExamDescription"></asp:Literal></p>
                                     <h2>Exam Rules</h2>
-                                  <ul>
-                                      <li>
-                                          Rule 1
-                                        
-                                      </li>
-                                      <li>
-                                          Rule 2
-                                        
-                                      </li>
-                                      <li>
-                                        Rule 3
-                                        
-                                      </li>
-                                      <li>
-                                          Rule 4
-                                        
-                                      </li>
-
-                                  </ul>
-                                   <asp:Button runat="server" class="btn btn-primary btn-sm"  Text="I READ THE RULES, LETS GET STARTED"></asp:Button>
+                                <p>
+                                    <asp:Literal runat="server" ID="ltrlExamRules"></asp:Literal>
+                                </p>
+                                   <asp:Button runat="server" ID="btnStart" class="btn btn-primary btn-sm" OnClick="btnStart_Click"  Text="I READ THE RULES, LETS GET STARTED"></asp:Button>
 
                                 </div>
                                 </div>

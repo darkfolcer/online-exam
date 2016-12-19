@@ -8,15 +8,14 @@
                                     <ul class="list-group sidebar-nav" id="sidebar-nav">
                                        
                                         <li class="list-group-item">
-                                            <a href="ListofInstructor.html">List of Instructor</a>
+                                            <a href="ListofInstructor.aspx">List of Instructor</a>
                                         </li>
                                         <li class="list-group-item">
-                                            <a href="InsRequestApprove.html">Instructor Request Approve</a>
+                                            <a href="InsRequestApprove.aspx">Instructor Request Approve</a>
                                         </li>
                                         <li class="list-group-item">
-                                            <a href="EditInstructor.html">Instructor Request Approve</a>
+                                            <a href="MyAccount.aspx">My Account</a>
                                         </li>
-
                                     </ul>
                                      
                                 </div>

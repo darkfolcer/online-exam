@@ -57,18 +57,21 @@
                             <div class="col-md-12 no-padding">
                                 <div class="pull-right visible-lg">
                                     <ul id="hornavmenu" class="nav navbar-nav">
+
                                         <li>
                                             <a href="index.aspx" class="fa-home">Instructor Home</a>
                                         </li>
                                         
+                                        <li>
+                                            <a href="recievedRequest.aspx" class="fa-question">Requests</a>
+                                                                                    </li>
+
                                        <li>
+
                                             <span class="fa-copy">Create</span>
                                             <ul>
                                                 <li>
-                                                    <a href="createLecture.aspx">New Lecture</a>
-                                                </li>
-                                                <li>
-                                                    <a href="createClass.aspx">ClassList</a>
+                                                    <a href="createLecture.aspx">Lecture</a>
                                                 </li>
                                                 <li>
                                                     <a href="createExam.aspx">Exam</a>

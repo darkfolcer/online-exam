@@ -62,8 +62,8 @@
                                                             <p>Notes, dates, reminder, description etc.</p>
                                                         </div>
                                                     </div>
-                                                    <button style="margin-left:80%;" type="button" class="btn btn-success">Class List</button>
-                                                    <button style="float: right; margin-left:-10%;" type="button" class="btn btn-primary">Edit</button>
+                                                    <asp:Button  PostBackUrl="~/instructor/showClassList.aspx" Text="Class List" runat="server" style="margin-left:80%;" type="button" CssClass="btn btn-success"></asp:Button>
+                                                    <asp:Button PostBackUrl="~/instructor/createLecture.aspx" Text="Edit" runat="server" style="float: right; margin-left:-5%;" type="button" CssClass="btn btn-primary"></asp:Button>
                                                 </div>
                                             </div>
                                         </div>

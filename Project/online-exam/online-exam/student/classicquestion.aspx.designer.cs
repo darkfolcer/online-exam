@@ -10,33 +10,42 @@
 namespace EsOnlineExam.student {
     
     
-    public partial class joinexam {
+    public partial class classicquestion {
         
         /// <summary>
-        /// ltrlExamDescription control.
+        /// answer control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ltrlExamDescription;
+        protected global::System.Web.UI.WebControls.TextBox answer;
         
         /// <summary>
-        /// ltrlExamRules control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal ltrlExamRules;
+        protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
-        /// btnStart control.
+        /// Button2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnStart;
+        protected global::System.Web.UI.WebControls.Button Button2;
+        
+        /// <summary>
+        /// Button3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button3;
     }
 }

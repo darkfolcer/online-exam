@@ -8,3 +8,8 @@ C:\Users\Windows 7\Documents\GitHub\online-exam\Project\online-exam\online-exam\
 C:\Users\Windows 7\Documents\GitHub\online-exam\Project\online-exam\online-exam\obj\Debug\EsOnlineExam.csprojResolveAssemblyReference.cache
 C:\Users\Windows 7\Documents\GitHub\online-exam\Project\online-exam\online-exam\obj\Debug\online-exam.dll
 C:\Users\Windows 7\Documents\GitHub\online-exam\Project\online-exam\online-exam\obj\Debug\online-exam.pdb
+C:\Users\serdar\Documents\GitHub\online-exam\Project\online-exam\online-exam\bin\online-exam.dll
+C:\Users\serdar\Documents\GitHub\online-exam\Project\online-exam\online-exam\bin\online-exam.pdb
+C:\Users\serdar\Documents\GitHub\online-exam\Project\online-exam\online-exam\obj\Debug\EsOnlineExam.csprojResolveAssemblyReference.cache
+C:\Users\serdar\Documents\GitHub\online-exam\Project\online-exam\online-exam\obj\Debug\online-exam.dll
+C:\Users\serdar\Documents\GitHub\online-exam\Project\online-exam\online-exam\obj\Debug\online-exam.pdb

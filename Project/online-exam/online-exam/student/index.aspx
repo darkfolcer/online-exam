@@ -58,7 +58,7 @@
                                     <h4 style="margin: 0;"><a style="color:green">Available at</a> <%#Eval("Date") %></h4>
                                     <p>
                                         <small><a>Brief info:</a><%#Eval("Description") %></small><br />
-                                      <button type="button" onclick="<% Response.Redirect("url") %>" class="btn btn-primary btn-xs">JOIN EXAM</button>
+                                      <button type="button" onclick="<% Response.Redirect("url"); %>" class="btn btn-primary btn-xs">JOIN EXAM</button>
  
                                     </p>
                                                       <hr>

@@ -341,6 +341,7 @@
     <Content Include="assets\js\slimbox2.js" />
     <Content Include="assets\less\bootstrap\bootstrap.css" />
     <Content Include="index.aspx" />
+    <Content Include="instructor\addingQuestion.aspx" />
     <Content Include="instructor\assets\css\animate.css" />
     <Content Include="instructor\assets\css\bootstrap.css" />
     <Content Include="instructor\assets\css\font-awesome.css" />
@@ -483,7 +484,11 @@
     <Content Include="instructor\assets\js\scripts.js" />
     <Content Include="instructor\assets\js\slimbox2.js" />
     <Content Include="instructor\assets\less\bootstrap\bootstrap.css" />
+    <Content Include="instructor\createClass.aspx" />
+    <Content Include="instructor\createExam.aspx" />
+    <Content Include="instructor\createLecture.aspx" />
     <Content Include="instructor\index.aspx" />
+    <Content Include="instructor\recievedRequest.aspx" />
     <Content Include="login.aspx" />
     <Content Include="register.aspx" />
     <Content Include="student\assets\css\animate.css" />
@@ -654,6 +659,34 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="instructor\addingQuestion.aspx.cs">
+      <DependentUpon>addingQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="instructor\addingQuestion.aspx.designer.cs">
+      <DependentUpon>addingQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="instructor\createClass.aspx.cs">
+      <DependentUpon>createClass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="instructor\createClass.aspx.designer.cs">
+      <DependentUpon>createClass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="instructor\createExam.aspx.cs">
+      <DependentUpon>createExam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="instructor\createExam.aspx.designer.cs">
+      <DependentUpon>createExam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="instructor\createLecture.aspx.cs">
+      <DependentUpon>createLecture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="instructor\createLecture.aspx.designer.cs">
+      <DependentUpon>createLecture.aspx</DependentUpon>
+    </Compile>
     <Compile Include="instructor\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -661,6 +694,13 @@
     <Compile Include="instructor\instructor.master.cs">
       <DependentUpon>instructor.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="instructor\recievedRequest.aspx.cs">
+      <DependentUpon>recievedRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="instructor\recievedRequest.aspx.designer.cs">
+      <DependentUpon>recievedRequest.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>

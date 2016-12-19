@@ -24,7 +24,7 @@ namespace EsOnlineExam
         /// </summary>
         public Database()
         {
-            String connectionString = "";
+           String connectionString = "Server=88.198.75.21,1433; Database=Bilal;User Id=bilal; Password=bilal123;";
             baglanti = new SqlConnection(connectionString);
         }
         /// <summary>
@@ -34,12 +34,22 @@ namespace EsOnlineExam
         {
 
             if (baglanti != null && baglanti.State == ConnectionState.Closed)
+            
             {
-                baglanti.Open();
+                try
+                {
+
+                    baglanti.Open();
+                }
+                catch(Exception ex)
+                {
+                    ex.ToString();
+                }
             }
         }
+      
         /// <summary>
-        /// Stops Database.
+        /// this method stops the database connection.
         /// </summary>
         public void stopDB()
         {
@@ -50,6 +60,11 @@ namespace EsOnlineExam
 
         }
 
+        /// <summary>
+        /// takes query to return its sql command.
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
         public SqlCommand SqlCommand(string query)
         {
             startDB();

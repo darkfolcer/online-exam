@@ -41,12 +41,12 @@
                                                     </div>
                                                     <div style="margin-top:2%">
                                                         <label>Exam Description:</label>
-                                                        <asp:TextBox runat="server" required="true" CssClass="form-control" ID="description" style="width:15%;margin-left:23.5%;margin-top:-4.8%"></asp:TextBox>
+                                                        <asp:TextBox runat="server" required="true" CssClass="form-control" ID="description" style="width:35%;margin-left:23.5%;margin-top:-4.8%"></asp:TextBox>
                                                     </div>
 
                                                     <div style="margin-top:2%">
                                                         <label>Exam Rules:</label>
-                                                        <asp:TextBox runat="server" CssClass="form-control" required="true" ID="Rules" style="width:15%;margin-left:23.5%;margin-top:-4.2%"></asp:TextBox>
+                                                        <asp:TextBox runat="server" CssClass="form-control" required="true" ID="Rules" style="width:45%;margin-left:23.5%;margin-top:-4.2%"></asp:TextBox>
                                                     </div><br />
 
 

@@ -387,6 +387,18 @@ namespace EsOnlineExam.student
                     return examType;
                 }
 
+                protected void submitBtn_Click(object sender, EventArgs e)
+                {
+                    string query = "Insert INTO studentExamSubmits (studentUsername,examID,isSubmited) VALUES(@param1,@param2,@param3)";
+                    Database db = new Database();
+                    SqlCommand cmd = db.SqlCommand(query);
+                    cmd.Parameters.Add("@param1", username);
+                    cmd.Parameters.Add("@param2", examId);
+                    cmd.Parameters.Add("@param3", true);
+                    db.Execute(cmd);
+                    Response.Redirect("index.aspx");
+                }
+
   
 
               

@@ -119,7 +119,7 @@
                                              <p style="margin-top:-20px; font-size:10px">Save your answers in order to avoid any possible data loss.</p>
                                            <div style="margin-top:-10px"><asp:Button ID="btnSave" OnClick="btnSave_Click" CssClass="btn btn-yellow" runat="server" Text="Save answers" /></div>
                                               <h3 class="title" style="margin-top:10px; color:red; font-weight:500">Submit</h3> 
-                                           <asp:Button ID="Button3"  CssClass="btn btn-danger" runat="server" Text="Submit Exam" />
+                                           <asp:Button ID="submitBtn"  CssClass="btn btn-danger" runat="server" Text="Submit Exam" OnClick="submitBtn_Click" />
 
                                         </div>
                                       

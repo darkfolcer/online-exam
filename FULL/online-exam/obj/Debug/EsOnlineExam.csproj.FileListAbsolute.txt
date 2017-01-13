@@ -1,0 +1,4 @@
+C:\Users\Bilal\Desktop\Yeni klasör (2)\online exam\online-exam\bin\online-exam.dll
+C:\Users\Bilal\Desktop\Yeni klasör (2)\online exam\online-exam\bin\online-exam.pdb
+C:\Users\Bilal\Desktop\Yeni klasör (2)\online exam\online-exam\obj\Debug\online-exam.dll
+C:\Users\Bilal\Desktop\Yeni klasör (2)\online exam\online-exam\obj\Debug\online-exam.pdb

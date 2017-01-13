@@ -1,0 +1,189 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="instructor.master.cs" Inherits="Instructor_instructor" %>
+
+<!-- === BEGIN HEADER === -->
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <head>
+        <!-- Title -->
+        <title>ES - New Generation Online Exam System</title>
+        <!-- Meta -->
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!-- Favicon -->
+        <link href="favicon.ico" rel="shortcut icon">
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.css" rel="stylesheet">
+        <!-- Template CSS -->
+        <link rel="stylesheet" href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/nexus.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/responsive.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/custom.css" rel="stylesheet">
+        <!-- Google Fonts-->
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,300" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="body_bg">
+           
+            <div class="primary-container-group">
+                <!-- Background -->
+                <div class="primary-container-background">
+                    <div class="primary-container"></div>
+                    <div class="clearfix"></div>
+                </div>
+                <!--End Background -->
+                <div class="primary-container">
+                    <form id="form1" runat="server">  
+                    <div id="header" class="container">
+                        <div class="row">
+                            <!-- Logo -->
+                            <div class="logo">
+                                <a href="default.aspx" title="">
+                                    <img src="assets/img/logo.png" alt="Logo" />
+                                </a>
+                            </div>
+                            <!-- End Logo -->          
+                        </div>
+                    </div>
+                    <!-- Top Menu -->
+                
+                      <div id="hornav" class="container no-padding">
+                        <div class="row">
+                            <div class="col-md-12 no-padding">
+                                <div class="pull-right visible-lg">
+                                    <ul id="hornavmenu" class="nav navbar-nav">
+
+                                        <li>
+                                            <a href="default.aspx" class="fa-home">Instructor Home</a>
+                                        </li>
+                                        <li>
+
+                                            <span class="fa-copy">Manage Exams</span>
+                                            <ul>
+                                                <li>
+                                                    <a href="manageExams.aspx">Created</a>
+                                                </li>
+                                                <li>
+                                                    <a href="managePublishedExams.aspx">Published</a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </li>
+                                        
+                                        
+
+                                       <li>
+
+                                            <span class="fa-copy">Create</span>
+                                            <ul>
+                                                <li>
+                                                    <a href="createLectures.aspx">Lecture</a>
+                                                </li>
+                                                <li>
+                                                    <a href="createExam.aspx">Exam</a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </li>
+                                        
+                                        
+                                        <li>
+                                            <span class="fa-user">Account</span>
+                                            <ul>
+                                                <li>
+                                                    <a onclick=" " href="editProfile.aspx">Edit</a>
+                                                </li>
+                                                <li>
+                                                <asp:LinkButton runat="server" ID="logoutBtn" Text="Logout" OnClick="logoutBtn_Click"></asp:LinkButton>
+                                                </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Top Menu -->
+                    <!-- === END HEADER === -->
+                    <!-- === BEGIN CONTENT === -->
+                 
+                             
+    <div>
+   
+        <asp:ContentPlaceHolder id="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    
+                       
+                        
+                          </form>
+                    </div>
+                </div>
+          
+            </div>
+            <!-- === END CONTENT === -->
+            <!-- === BEGIN FOOTER === -->
+            <div id="base">
+                <div class="container padding-vert-30 margin-top-40">
+                   
+                </div>
+            </div>
+            <!-- Footer Menu -->
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div id="copyright" class="col-md-4">
+                            <p>(c) 2016 Online Exam System</p>
+                        </div>
+                        <div id="footermenu" class="col-md-8">
+                            <ul class="list-unstyled list-inline pull-right">
+                                <li>
+                                    <a href="#" target="_blank">Administration</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">Homepage</a>
+                                </li>
+                              
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- End Footer Menu -->
+            <!-- JS -->
+            <script type="text/javascript" src="assets/js/jquery.min.js" type="text/javascript"></script>
+            <script type="text/javascript" src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+            <script type="text/javascript" src="assets/js/scripts.js"></script>
+            <!-- Isotope - Portfolio Sorting -->
+            <script type="text/javascript" src="assets/js/jquery.isotope.js" type="text/javascript"></script>
+            <!-- Mobile Menu - Slicknav -->
+            <script type="text/javascript" src="assets/js/jquery.slicknav.js" type="text/javascript"></script>
+            <!-- Animate on Scroll-->
+            <script type="text/javascript" src="assets/js/jquery.visible.js" charset="utf-8"></script>
+            <!-- Sticky Div -->
+            <script type="text/javascript" src="assets/js/jquery.sticky.js" charset="utf-8"></script>
+            <!-- Slimbox2-->
+            <script type="text/javascript" src="assets/js/slimbox2.js" charset="utf-8"></script>
+            <!-- Modernizr -->
+            <script src="assets/js/modernizr.custom.js" type="text/javascript"></script>
+            <!-- End JS -->
+             <script src="//code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>  
+             <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"type="text/javascript"></script>  
+             <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script type="text/javascript">
+            $(function () {
+                $("#datepicker").datepicker();
+            });
+</script>   
+    </body>
+</html>
